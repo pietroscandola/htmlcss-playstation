@@ -6,3 +6,25 @@
 #sony {
     width: 70px;
 }
+
+
+/***** MAIN *****/
+
+.jumbotron {
+    background-image: url('../img/jumbo-bg.png');
+    min-width: 100%;
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#returnal {
+    width: 50%;
+}
+
+
+/* First Section */
+
+.returnal {
+    width: 100%;
+}
