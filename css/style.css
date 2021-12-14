@@ -72,3 +72,8 @@
     transform: scale(1.2);
     cursor: pointer;
 }
+
+.device:hover {
+    border-bottom: 1px solid blue;
+    cursor: pointer;
+}
