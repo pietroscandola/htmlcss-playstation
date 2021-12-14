@@ -55,3 +55,11 @@
 #sie-logo {
     width: 15%;
 }
+
+
+/* BONUS */
+
+.btn:hover {
+    outline: 1px solid white;
+    outline-offset: -3px;
+}
