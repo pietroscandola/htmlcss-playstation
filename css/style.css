@@ -63,3 +63,12 @@
     outline: 1px solid white;
     outline-offset: -3px;
 }
+
+.game {
+    transition: transform 1s;
+}
+
+.game:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
