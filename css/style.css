@@ -1,3 +1,8 @@
+body {
+    padding-top: 100px;
+}
+
+
 /***** HEADER *****/
 
 
@@ -11,31 +16,26 @@
 /***** MAIN *****/
 
 .jumbotron {
-    background-image: url('../img/jumbo-bg.png');
     min-width: 100%;
     min-height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-top: 100px;
 }
 
 #returnal {
-    width: 50%;
+    background-image: url('../img/jumbo-bg.png');
 }
 
-.jumbotron-second {
-    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
-    min-width: 100%;
-    min-height: 700px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+
+/* Fifth Section */
 
 #it-takes-two {
-    width: 50%;
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
 }
+
+
+/*  Eleventh Section  */
 
 .bg-section11 {
     background-color: #161c3b;
@@ -49,7 +49,7 @@
 }
 
 #language {
-    width: 2%;
+    width: 3%;
 }
 
 #sie-logo {
@@ -58,6 +58,10 @@
 
 
 /* BONUS */
+
+.navbar a:hover {
+    color: black !important;
+}
 
 .btn:hover {
     outline: 1px solid white;
@@ -75,5 +79,17 @@
 
 .device:hover {
     border-bottom: 1px solid blue;
+    opacity: 1 !important;
     cursor: pointer;
+}
+
+
+/* Dropdown */
+
+.dropdown-menu {
+    width: 100vw;
+}
+
+#joypad {
+    width: 15%;
 }
